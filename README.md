@@ -135,6 +135,7 @@ python producer.py
 
 ### 5. Flume Agent 2 (Kafka → HDFS)
 ![HDFS Dashboard](pices/Picture3.png)
+
 **File:** `kafka_to_hdfs.conf`
 ```
 agent2.sources = kafkaSource
