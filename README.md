@@ -224,7 +224,7 @@ spark-submit --master local[2] --driver-memory 1g --executor-memory 1g \
   spark_consumer.py
 ```
 
-### 7. Grafana Dashboard
+### 7. Grafana Dashboard(pices/Picture1.png)
 
 **URL:** `http://<vm-ip>:3000` (default: `admin / admin`)
 
