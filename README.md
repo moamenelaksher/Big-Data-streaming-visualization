@@ -264,8 +264,8 @@ spark-submit --master local[2] --driver-memory 1g --executor-memory 1g \
 ```
 ~/finance_project/
 ├── producer.py                 # Finnhub WebSocket → Flume HTTP
-├── finnhub_to_kafka.conf       # Flume Agent 1 config
-├── kafka_to_hdfs.conf          # Flume Agent 2 config
+├── Agent_1.conf       # Flume Agent 1 config
+├── Agent_2.conf          # Flume Agent 2 config
 ├── spark_consumer.py           # PySpark Kafka → InfluxDB
 └── README.md
 ```
