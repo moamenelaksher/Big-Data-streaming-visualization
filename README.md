@@ -283,8 +283,5 @@ spark-submit --master local[2] --driver-memory 1g --executor-memory 1g \
 - Grafana (latest)
 - Hadoop HDFS (optional, for archival)
 
----
 
-## License
 
-MIT
